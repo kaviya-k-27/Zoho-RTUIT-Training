@@ -1,0 +1,6 @@
+body{
+	background-image:url("virat.jfif"), url("vr.jfif");
+	background-repeat: repeat-x;
+	background-color:violet;
+	background-position: 0 0,300px 300px;
+ }

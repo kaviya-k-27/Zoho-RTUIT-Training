@@ -1,0 +1,37 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height: 100vh;
+    width:100vw;
+    /* justify-content: center;
+    align-items: center; */
+}
+.container{
+    height: 500px;
+    width:500px;
+    background-color: yellow;
+    border:2px solid black;
+    margin:auto;
+    display:flex;
+} 
+.item{
+    height:100px;
+    width:100px;
+    border:1px solid black;
+    margin:10px;
+}
+@media(max-width:800px)
+{
+    .item{
+        width:150px;
+       color:green;
+       background-color: blueviolet;
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+}

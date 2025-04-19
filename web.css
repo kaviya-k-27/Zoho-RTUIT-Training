@@ -1,0 +1,93 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:rgb(28, 6, 64);
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.nav
+{
+    height: 60px;
+    display:flex;
+}
+.title
+{
+    width:430px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left:130px;
+    padding-top:15px;
+}
+.menu ul{
+    display:flex;
+    /* justify-content: space-around;  work  aagathu */
+    list-style:none;
+    padding:20px;
+    padding-right:40px;
+}
+.menu li
+{
+     padding-left:80px;     
+}
+button{
+    margin-left:20px;
+    padding:5px;
+    font-size: medium;
+    background-color: rgba(255, 0, 0, 0.955);
+    color:white;
+    border-radius: 8px ;
+    border:none;
+    width:100px;
+    box-shadow: 2px 2px 5px 2px  red;
+}
+.main
+{
+    color:white;
+    padding-top:40px;
+    display: flex;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.text
+{
+    width:65%;
+    padding:130px;
+}
+h4{
+    padding-top:30px;
+}
+input{
+    height:40px;
+    width:300px;
+    border:none;
+}
+.search{
+    border:solid 1px black;
+    display: flex;
+    width:400px;
+    margin-top:30px;
+    background-color:white;
+}
+.search button{
+    margin:5px;
+
+}
+::placeholder{
+    padding-left: 10px;
+}
+.gimage
+{
+    height:400px;
+    width:400px;
+    background-image: linear-gradient(rgb(209, 61, 61),rgb(28, 6, 64));
+    border-radius:550px;
+    margin-top: 50px;
+}

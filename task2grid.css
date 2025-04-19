@@ -1,0 +1,124 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* text-align: center; */
+}
+body{
+    background-color: rgb(226, 255, 245);
+    margin:30px;
+}
+
+.search
+{
+    margin:auto;
+    margin-top: 10px;
+    height:50px;
+    width: 80%;
+    border:none;
+    background-color:white;
+}
+.img{
+    margin-left:10 0px;
+}
+#wrapper
+{
+    height:10vh;
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 130px;
+    margin-top: 30px;
+}
+ .title{
+    margin-right:370px;
+    height:30px;
+    width:60vb;
+    margin-top:5px;
+}
+.option{
+    padding:11px;
+}
+#all button
+{
+background-color: red;
+color:white;
+}
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.option button
+{
+    padding:10px;
+    border-radius:20px;
+    border: none;
+    background-color: white;
+    color:black;
+
+}
+#box{
+    height:100vh;
+    display:grid;
+    gap:10px;
+    margin-left:130px;
+    margin-right: 130px;
+    margin-top:10px;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:repeat(4,1fr);
+}
+.b
+{ 
+    box-shadow:0px 5px 5px 0px rgb(107, 96, 96);
+    border-radius:20px;
+    background-color: white;
+    border:1px solid rgb(207, 203, 203);
+}
+.b1
+{
+    padding-left: 210px;
+}
+.button{
+    padding-left:22px;   
+    padding-bottom: 15px;
+}
+.button button{
+    background-color: white;
+    border-radius: 50px;
+    padding:5px;
+   border:solid 2px gray;
+}
+.b1 button{
+    background-color: white;
+    border-radius: 50px;
+    padding:5px;
+   font-size:8px;
+   color: white;
+   margin-left:28px;
+   border:none;
+}
+.k{
+    width:48px;
+    height:23px;
+    margin-right: 15px;
+    border-radius:15px;
+    background-color:red;
+}
+.info
+{
+    display: flex;
+    padding:30px;
+}
+.h3{
+    padding: 20px;
+}
+i{
+    background-color: goldenrod;
+    padding:20px;
+    border-radius: 20px;
+    height:60px;
+    margin:auto;
+}
+.flexible
+{
+    display: flex;
+}

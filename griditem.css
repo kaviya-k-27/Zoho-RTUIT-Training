@@ -1,0 +1,43 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#grid
+{
+    height:100vh;
+    width:100vw;
+    border:2px solid;
+    display:grid;
+    /* display: flex; */
+    grid-template-areas:
+    "headerarea headerarea headerarea"
+    "nav content sidebar"
+    "footer footer footer";
+    grid-template-columns:1 fr 4 fr 1 fr;
+    grid-template-rows: 50 px 2 fr 50px;
+
+
+
+}
+header , nav,main,aside,footer{
+    background-color: gray;
+    border:2px,red solid;
+   
+}
+header{
+    grid-area:headerarea;
+}
+nav{
+    grid-area:nav;
+}
+main{
+    grid-area:content;
+}
+aside{
+    grid-area:sidebar;
+}
+footer{
+    grid-area:footer;
+}

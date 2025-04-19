@@ -1,0 +1,23 @@
+#linear{
+    height:400px;
+    width:400px;
+    /* background-image: linear-gradient(45deg, blue 0% 20% , red 20% 40%, blue 40% 60%,  red 60% 100%)  */
+    background-image: repeating-linear-gradient(45deg, rgba(0,0,225,0.7)0% 10% , rgba(255, 0,0,0.7) 10% 20% ), url("virat.jfif");
+    
+}
+#radial{
+    height:400px;
+    width:400px;
+    background-image:repeating-radial-gradient( circle closest-corner at center, pink 0% 5%, yellow 5% 10%);
+    margin-top:50px;
+}
+#conic{
+    height:400px;
+    width:400px;
+    background-image:repeating-conic-gradient(from 45deg at center, purple 0% 5%, yellow 5% 10%);
+    margin-left:20%;
+
+}
+img{
+    float:left;
+}

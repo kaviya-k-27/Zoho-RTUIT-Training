@@ -1,0 +1,33 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+
+}
+p{
+	height:100px;
+	width: 100px;
+}
+div
+{
+
+	height:100px;
+	width:100px;
+	border:10px solid yellow;
+	text-align: center;
+	margin:20px;
+	padding: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 0px;
+}
+<h1>Heading</h1>
+<p>This paragraph is styled</p>
+<p>This one too</p>
+<div>This won’t be affected</div>
+css
+Copy
+Edit
+h1 ~ p {
+  color: orange;
+}
